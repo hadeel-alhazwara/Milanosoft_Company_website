@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILANOSOFT</title>
+    <link rel="Icon" href="Image/hadeel-alhazwara.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>  <img class='icon' id="togglePassword" src="Image/eye.png" />
+                    <span class="icon" id="togglePassword">
+                        <img src="Image/eye.png" />
+                      </span>
+                </div>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="SignUp.html">Sign Up</a></p>
+                <p id="error-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>

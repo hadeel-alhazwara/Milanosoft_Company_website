@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILANOSOFT</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="Icon" href="Image/hadeel-alhazwara.ico" type="image/x-icon">
+    <script src="SignUp.js" ></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Sign Up</h2>
+            <form id="signUp" action="Login.html" method="POST">
+                <div class="input-group">
+                    <label for="signupUsername">Username</label>
+                    <input type="text" id="signupUsername" name="signupUsername" required>
+                </div>
+                <div class="input-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" name="signupEmail" required>
+                </div>
+                <div class="input-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" name="signupPassword" required>
+                    <span class="icon" id="togglePassword">
+                        <img src="Image/eye.png" />
+                      </span>
+                </div>
+                <button  type="submit" id="submitSignup">Sign Up</button>
+                <p>Already have an account? <a href="Login.html">Log In</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="SignUp.js"></script>
+</body>
+</html>
